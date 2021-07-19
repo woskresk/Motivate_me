@@ -86,13 +86,13 @@
 
 
 
-    <div class="service_area">
+    <div class="service_area" style="padding-top: 50px;">
         <div class="container">
             <div class="row justify-content-center ">
                 <div class="col-lg-7 col-md-10">
                     <div class="section_title text-center mb-95">
                         <h3>Личный кабинет</h3>
-                        <p>Почему наш сервис подойдет именно вам? Ответы на этот и многие интерестные вопросы мы постарались собрать в этом презентационном видео. </p>
+                        <p>Наш сервис начал свою работу в 2021 году и еще совсем сырой, поэтому просим все свои пожелания и предложения присылать нам по <a href="/#pochta">обратной связи.</a> </p>
                     </div>
                 </div>
             </div>
@@ -109,8 +109,14 @@
                          <div class="service_content text-left">
                             <h3>Ваше Имя: Вадим</h3>
                             <h4>Почта: qwerty@gmail.com</h4>
-                            <h4>Ваш рейтинг: 100% - нет оценок</h4>
-                            <a href="">Удалить аккаунт</a>
+                            <h4>Ваш рейтинг: Нет оценок</h4>
+                            <a href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                        document.getElementById('logout-form').submit();">Выйти из аккаунта</a>
+ 
+                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                         @csrf
+                                     </form>
                          </div>
                     </div>
                 </div>
@@ -124,8 +130,8 @@
                          <div class="service_content text-left">
                             <h3>Имя мотиватора: Вадим</h3>
                             <h4>Почта: qwerty@gmail.com</h4>
-                            <h4>Ваш рейтинг: 100%</h4>
-                            <a href="">Оценить</a>
+                            <h4>Ваш рейтинг: Нет оценок</h4>
+                            <!-- <a href="">Оценить</a> -->
                          </div>
                     </div>
                 </div>

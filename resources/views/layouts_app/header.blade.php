@@ -75,7 +75,7 @@
                             <div class="logo">
                                 <a href="index.html">
                                     <img src="img/logo.png" alt="" style="height: 70px;" class="wibro">
-                                    <span style="color: black; font-size: 30px;">otivate_us</span>
+                                    <span style="color: black; font-size: 30px;">otivate_me</span>
                                 </a>
                             </div>
                         </div>
@@ -83,11 +83,11 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a  href="index.html">Главная</a></li>
-                                        <li><a href="#">Презентация</a></li>
+                                        <li><a  href="/">Главная</a></li>
+                                        <li><a href="/#video_id">Презентация</a></li>
                                         <li><a href="#">Донат</a></li>
                                         <li><a href="/user">Личный кабинет</a></li>
-                                        <li><a href="contact.html">Контакты</a></li>
+                                        <li><a href="/#pochta">Контакты</a></li>
                                     </ul>
                                 </nav>
                             </div>

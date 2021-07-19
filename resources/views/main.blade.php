@@ -22,7 +22,7 @@
     <!-- slider_area_end -->
 
     <!-- service_area_start  -->
-    <div class="service_area">
+    <div id="video_id" class="service_area">
         <div class="container">
             <div class="row justify-content-center ">
                 <div class="col-lg-7 col-md-10">
@@ -252,7 +252,7 @@
     </div> -->
     <!-- team_area_start  -->
 
-    <div class="contact_anipat anipat_bg_1">
+    <div id="pochta" class="contact_anipat anipat_bg_1" >
         <div class="container">
             <div class="row">
                     <div class="col-12">
