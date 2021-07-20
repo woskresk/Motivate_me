@@ -21,3 +21,5 @@ Route::get('/user', 'HomeController@user')->middleware('verified');;
 Route::get('/home', 'HomeController@index')->name('home');
 
 // Route::get('/search', 'HomeController@search')->name('search');
+
+Route::get('/choice', 'ChoiceController@index');

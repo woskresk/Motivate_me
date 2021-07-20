@@ -107,8 +107,8 @@
                              </div>
                          </div> -->
                          <div class="service_content text-left">
-                            <h3>Ваше Имя: Вадим</h3>
-                            <h4>Почта: qwerty@gmail.com</h4>
+                            <h3>Ваше Имя: {{ $choice_one->name ?? 'NoName' }}</h3>
+                            <h4>Почта: {{ $choice_one->email ?? 'NoEmail' }}</h4>
                             <h4>Ваш рейтинг: Нет оценок</h4>
                             <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
@@ -128,8 +128,8 @@
                              </div>
                          </div> -->
                          <div class="service_content text-left">
-                            <h3>Имя мотиватора: Вадим</h3>
-                            <h4>Почта: qwerty@gmail.com</h4>
+                            <h3>Имя мотиватора: {{ $choice_tre->name ?? 'НЕТ' }}</h3>
+                            <h4>Почта: {{ $choice_tre->email ?? 'НЕТ' }}</h4>
                             <h4>Ваш рейтинг: Нет оценок</h4>
                             <!-- <a href="">Оценить</a> -->
                          </div>
@@ -145,7 +145,7 @@
                 background-color: #eb592d;
                 text-align: center;
                 ">
-                <a href="#" style="
+                <a href="/choice" style="
                 color: white;
                 font-size: 28px;
                 ">    ПОДБОР
