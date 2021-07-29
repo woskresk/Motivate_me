@@ -64,7 +64,7 @@
 
 
     <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- <script src="js/vendor/modernizr-3.5.0.min.js"></script> -->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -91,7 +91,7 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script> -->
 
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
     <!-- <script>
         $('#datepicker').datepicker({
             iconsLibrary: 'fontawesome',
