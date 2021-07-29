@@ -53,7 +53,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-                            <p>"Motivate_us" - <script>document.write(new Date().getFullYear());</script> </p>
+                            <p>"Motivate_me" - <script>document.write(new Date().getFullYear());</script> </p>
                         </p>
                     </div>
                 </div>

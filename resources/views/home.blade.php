@@ -15,6 +15,7 @@
                     @endif
 
                     You are logged in!
+                    <a href="/user">Вернутся в личный кабинет</a>
                 </div>
             </div>
         </div>
