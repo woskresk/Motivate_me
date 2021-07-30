@@ -54,4 +54,7 @@ class HomeController extends Controller
         } 
         
     }
+    public function articls($new){
+        var_dump($new);
+    }
 }

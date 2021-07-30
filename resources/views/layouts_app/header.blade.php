@@ -44,6 +44,7 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/83456686" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
     <meta name="yandex-verification" content="033c36e462f80a27" />
+    <meta name="google-site-verification" content="LHyRgKyjBFavEXi5tj8FzfCnYxG_piZOrQmMRKG_-ik" />
 </head>
 
 <body>
@@ -88,7 +89,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-3 col-lg-3">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <img src="img/logo.png" alt="" style="height: 70px;" class="wibro">
                                     <span style="color: black; font-size: 30px;">otivate_me</span>
                                 </a>
