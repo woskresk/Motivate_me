@@ -55,6 +55,7 @@ class HomeController extends Controller
         
     }
     public function articls($new){
-        var_dump($new);
+        // var_dump($new);
+        return view('article');
     }
 }

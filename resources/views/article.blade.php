@@ -1,158 +1,150 @@
 @include('layouts_app.header')
 
-    <!-- bradcam_area_start -->
-    <!-- <div class="bradcam_area breadcam_bg">
+   
+
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider slider_bg_1 d-flex align-items-center"  style="height: 100px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="slider_text">
+                            <!-- <h1 style="color: white;">Биржа Мотивации</h1> -->
+                            <!-- <p>Тысячи увлеченных единомышленников  <br> adipiscing elit, sed do eiusmod </p>
+                            <a href="contact.html" class="boxed-btn4">Подобрать</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="dog_thumb d-none d-lg-block">
+                <img src="img/dog.png" alt="">
+            </div> -->
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+  
+  
+
+    <!-- adapt_area_start  -->
+    <div class="adapt_area">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="bradcam_text text-center">
-                        <h3>contact</h3>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5">
+                    <div class="adapt_help">
+                        <div class="section_title">
+                            
+                            <h1>Личная мотивация - это возможно?!</h1>
+                           <!--  <span>Содержание:</span> -->
+                            <ul class="list3b">
+                                <li><a href="" style="color: #eb592d;">Первое</a></li>
+                                <li><a href="" style="color: #eb592d;">Второе</a></li>
+                                <li><a href="" style="color: #eb592d;">Третье</a></li>
+                            </ul>
+                            <!-- <a href="#" class="boxed-btn3">Донат</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="adapt_about">
+                        
+                        <div class="row align-items-center">
+
+                            <div class="col-12">
+                                <img src="{{ URL::asset('img/sponsor.jpg') }}" style="width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- adapt_area_end  -->
+
+    
+
+    <!-- testmonial_area_start  -->
+    <div class="testmonial_area">
+        <div class="container">
+            <h2>Заголоок 2-го уровня</h2>
+            <p>В настоящее время существуют два подхода к определению мотивации.
+
+            Первый из них рассматривает мотивацию как структурное образование, как совокупность факторов или мотивов. Его придерживаются многие психологи как отечественные, так и иностранные. «Мотивация – это совокупность факторов, определяющих поведение. Это понятие описывает отношение, существующее между действием и причинами, которые его объясняют или оправдывают» (Ж. Годфруа).
+
+            Более определенно высказывается В. И. Ковалев: «Под мотивацией нами понимается совокупность мотивов поведения и деятельности». Все точки над i в рамках этого подхода расставляет В. Д. Шадриков. Согласно его схеме мотивация обусловлена потребностями, целями личности, уровнем притязаний, идеалами, условиями деятельности (как объективными, так и субъективными – знаниями, умениями, способностями, характером), мировоззрением, убеждениями, направленностью личности и т. д. С учетом этих факторов человек принимает решение.
+
+            В рамках второго подхода мотивация рассматривается как динамичное образование, как процесс, поддерживающий психическую активность человека на определенном уровне. Он также имеет своих многочисленных сторонников.
+
+            «Мотивация – это процесс психической регуляции, влияющий на направление деятельности и количество энергии, мобилизуемой для выполнения этой деятельности,– пишет В. Н. Куницына.
+
+            По мнению В. И. Ковалева процесс возникновения мотива разворачивается следующим образом. Возникновение потребности – осознание потребности – встреча потребности со стимулом – трансформирование (обычно посредством стимула) потребности в мотив – осознание мотива. В процессе осознания мотивы поведения выстраиваются в определенную иерархию. Одни их них занимают более значимое, другие – менее значимое положение.</p>
+            <ul>
+                <li>fjfj</li>
+                <li>fjfj</li>
+                <li>fjfj</li>
+
+            </ul>
+
+        </div>
+    </div>
+    <!-- testmonial_area_end  -->
+
+    <!-- team_area_start  -->
+    <!-- <div class="team_area">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section_title text-center mb-95">
+                        <h3>Our Team</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_team">
+                        <div class="thumb">
+                            <img src="img/team/1.png" alt="">
+                        </div>
+                        <div class="member_name text-center">
+                            <div class="mamber_inner">
+                                <h4>Rala Emaia</h4>
+                                <p>Senior Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_team">
+                        <div class="thumb">
+                            <img src="img/team/2.png" alt="">
+                        </div>
+                        <div class="member_name text-center">
+                            <div class="mamber_inner">
+                                <h4>jhon Smith</h4>
+                                <p>Senior Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_team">
+                        <div class="thumb">
+                            <img src="img/team/3.png" alt="">
+                        </div>
+                        <div class="member_name text-center">
+                            <div class="mamber_inner">
+                                <h4>Rala Emaia</h4>
+                                <p>Senior Director</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div> -->
-    <!-- bradcam_area_end -->
+    <!-- team_area_start  -->
 
-    <!-- ================ contact section start ================= -->
-    <section class="contact-section" style="background-color: #eb592d;">
-            <div class="container">
-                
-    
-    <!-- 
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="contact-title">Get in Touch</h2>
-                    </div>
-                    <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Name"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-lg-3 offset-lg-1">
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-home"></i></span>
-                            <div class="media-body">
-                                <h3>Buttonwood, California.</h3>
-                                <p>Rosemead, CA 91770</p>
-                            </div>
-                        </div>
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                            <div class="media-body">
-                                <h3>+1 253 565 2365</h3>
-                                <p>Mon to Fri 9am to 6pm</p>
-                            </div>
-                        </div>
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-email"></i></span>
-                            <div class="media-body">
-                                <h3>support@colorlib.com</h3>
-                                <p>Send us your query anytime!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-        </section>
-    <!-- ================ contact section end ================= -->
-
-
-
-
-
-
-    <div class="service_area" style="padding-top: 50px;">
-        <div class="container">
-            <div class="row justify-content-center ">
-                <div class="col-lg-7 col-md-10">
-                    <div class="section_title text-center mb-95">
-                        <h3>Личный кабинет</h3>
-                        <p>Наш сервис начал свою работу в 2021 году и еще совсем сырой, поэтому просим все свои пожелания и предложения присылать нам по <a href="/#pochta">обратной связи.</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                
-
-                <div class="col-lg-6 col-md-6">
-                    <div class="single_service">
-                         <!-- <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
-                             <div class="service_icon">
-                                 <img src="img/service/service_icon_1.png" alt="">
-                             </div>
-                         </div> -->
-                         <div class="service_content text-left">
-                            <h3>Ваше Имя: {{ $choice_one->name ?? 'NoName' }}</h3>
-                            <h4>Почта: {{ $choice_one->email ?? 'NoEmail' }}</h4>
-                            <h4>Ваш рейтинг: Нет оценок</h4>
-                            <a href="{{ route('logout') }}"
-                                        onclick="event.preventDefault();
-                                        document.getElementById('logout-form').submit();">Выйти из аккаунта</a>
- 
-                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                         @csrf
-                                     </form>
-                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single_service active">
-                         <!-- <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
-                             <div class="service_icon">
-                                 <img src="img/service/service_icon_2.png" alt="">
-                             </div>
-                         </div> -->
-                         <div class="service_content text-left">
-                            <h3>Имя мотиватора: {{ $choice_tre->name ?? 'НЕТ' }}</h3>
-                            <h4>Почта: {{ $choice_tre->email ?? 'НЕТ' }}</h4>
-                            <h4>Ваш рейтинг: Нет оценок</h4>
-                            <!-- <a href="">Оценить</a> -->
-                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="" style="
-                width: 40%;
-                border: 1px solid red;
-                height: 50px;
-                border-radius: 15px;
-                background-color: #eb592d;
-                text-align: center;
-                ">
-                <a href="/choice" style="
-                color: white;
-                font-size: 28px;
-                ">    ПОДБОР
-            </a>  </div>
-            </div>
-        </div>
-    </div>
 
 
     @include('layouts_app.footer')

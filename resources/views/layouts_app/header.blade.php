@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <link rel="icon" type="image/png" href="{{ URL::asset('img/logo.png') }}">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -90,7 +90,7 @@
                         <div class="col-xl-3 col-lg-3">
                             <div class="logo">
                                 <a href="/">
-                                    <img src="img/logo.png" alt="" style="height: 70px;" class="wibro">
+                                    <img src="{{ URL::asset('img/logo.png') }}" alt="" style="height: 70px;" class="wibro">
                                     <span style="color: black; font-size: 30px;">otivate_me</span>
                                 </a>
                             </div>
