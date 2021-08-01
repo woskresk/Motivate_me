@@ -113,10 +113,10 @@ li {
 
 /* line 57, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  color: #909092;
+  color: #515152;
   margin-bottom: 13px;
   font-family: "Open Sans", sans-serif;
 }
@@ -1874,7 +1874,7 @@ h3 {
 
 /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 .service_area {
-  padding-top: 241px;
+  padding-top: 160px;
   padding-bottom: 106px;
 }
 

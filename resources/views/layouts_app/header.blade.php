@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Motivate</title>
-    <meta name="description" content="">
+    <title>{{ $choice_one->title ?? 'Мотивация В Парах | Реальная Мотивация' }}</title>
+    <meta name="description" content="{{ $choice_one->descrip ?? 'Попробуйте взаимную мотивацию в прах БЕСПЛАТНО! Новый сервис для подбора пары взаимной мотивации -\'Motivate_Me\'' }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->

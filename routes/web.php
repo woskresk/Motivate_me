@@ -19,6 +19,9 @@ Route::get('/', function () {
 Auth::routes(['verify' => true]);
 Route::get('/user', 'HomeController@user')->middleware('verified');;
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/past', 'HomeController@newArticls');
+Route::post('/paster', 'HomeController@pastArticls')->name('pastArticls');
 Route::get('/articls/{new}', 'HomeController@articls')->name('new');
 
 // Route::get('/search', 'HomeController@search')->name('search');
