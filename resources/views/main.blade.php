@@ -9,7 +9,7 @@
                         <div class="slider_text">
                             <h3>Биржа <br> <span>Мотивации</span></h3>
                             <p>Тысячи увлеченных единомышленников <!-- <br> adipiscing elit, sed do eiusmod --></p>
-                            <a href="contact.html" class="boxed-btn4">Подобрать</a>
+                            <a href="/user" class="boxed-btn4">ПОДБОР</a>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="thumb-wrap">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y421bWMelqE" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nWiHb5XMAt0" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -116,9 +116,9 @@
                     <div class="adapt_help">
                         <div class="section_title">
                             <h3><span>Все наши услуги</span>
-                                Бесплатны!</h3>
-                            <p>Lorem ipsum dolor sit , consectetur adipiscing elit, sed do iusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
-                            <a href="#" class="boxed-btn3">Донат</a>
+                                БЕСПЛАТНЫ!</h3>
+                            <p>Все наши услуги совершенно БЕСПЛАТНЫ для клиентов, мы зарабатываем на спонсорской рекламе и донатах от удовлетворенных пользователей!</p>
+                            <a href="/user" class="boxed-btn3">Донат</a>
                         </div>
                     </div>
                 </div>

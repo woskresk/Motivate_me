@@ -101,7 +101,7 @@
                                     <ul id="navigation">
                                         <li><a  href="/">Главная</a></li>
                                         <li><a href="/#video_id">Презентация</a></li>
-                                        <li><a href="#">Донат</a></li>
+                                        <li><a href="/user">Донат</a></li>
                                         <li><a href="/user">Личный кабинет</a></li>
                                         <li><a href="/#pochta">Контакты</a></li>
                                     </ul>
