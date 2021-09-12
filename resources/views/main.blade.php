@@ -128,7 +128,7 @@
                         <div class="row align-items-center">
 
                             <div class="col-12">
-                                <img src="img/sponsor.jpg" style="width: 100%;">
+                                <a href="https://www.reg.ru/"><img src="img/sponsor.jpg" style="width: 100%;"></a>
                             </div>
                         </div>
                     </div>
