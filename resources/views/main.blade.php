@@ -256,7 +256,7 @@
         <div class="container">
             <div class="row">
                     <div class="col-12">
-                        <h2 class="contact-title" style="color: #ffffff;">Поддержка</h2>
+                        <h2 class="contact-title" style="color: #ffffff;">Контакты</h2>
                     </div>
                     <div class="col-12">
                         <form class="form-contact contact_form" action="https://formspree.io/f/mayajjeb" method="post" id="contactForm" novalidate="novalidate">
